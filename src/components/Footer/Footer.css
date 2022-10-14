@@ -1,7 +1,14 @@
 footer{
-    background-color: #161619;
-    border-radius: 6px;
+    border-end-start-radius: 6px;
+    border-end-end-radius: 6px;
     padding: 3px;
+}
+
+.dark > footer {
+    background-color: #161619;
+}
+.light > footer {
+    background-color: #D5D4D8;
 }
 
 ul {

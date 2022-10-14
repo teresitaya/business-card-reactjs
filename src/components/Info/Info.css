@@ -17,8 +17,13 @@
 
 .info-section-container > span {
     font-size: 12.8px;
-    color: #F3BF99;
     margin-bottom: 10px;
+}
+.dark .info-section-container > span {
+    color: #F3BF99;
+}
+.light .info-section-container > span {
+    color: #F47D27;
 }
 
 .contact {
@@ -45,11 +50,23 @@ a > i {
 }
 .emailBtn {
     padding: 9px 31.6px;
+}
+.emailBtn.dark {
     background-color: #FFFFFF;
     color: #374151;
 }
+.emailBtn.light {
+    background-color: #FFFFFF;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+}
 .linkedInBtn {
     padding: 9px 22.73px;
-    background-color: #5093E2;
     color: #FFFFFF;
+}
+.linkedInBtn.dark {
+    background-color: #5093E2;
+}
+.linkedInBtn.light {
+    background-color: #297FE5;
 }

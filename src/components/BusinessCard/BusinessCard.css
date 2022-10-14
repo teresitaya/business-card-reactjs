@@ -1,12 +1,17 @@
 .businnes-card-container {
-  background-color: #23252c;
   padding: 30px 115px;
- 
+  background-color: #23252c;
 }
-.businnes-card-container > .businnes-card {
-  background-color: #1a1b21;
-  color: #ffffff;
+.businnes-card-container .businnes-card {
   border-radius: 6px;
+}
+.businnes-card.dark {
+  background-color: #1A1B21;
+  color: #ffffff;
+}
+.businnes-card.light {
+  background-color: #F5F5F5;
+  color: #2B283A;
 }
 .content-section {
   max-width: 320px;

@@ -5,11 +5,11 @@ import Interests from "../Interests/Interests";
 
 import "./BusinessCard.css";
 
-function BusinessCard() {
+function BusinessCard(props) {
   return (
     <section className="businnes-card-container">
-      <div className="businnes-card">
-        <Info />
+      <div className={"businnes-card "+ props.mode}>
+        <Info mode={props.mode} />
        <div className="content-section">
        <About />
         <Interests />

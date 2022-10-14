@@ -14,11 +14,16 @@ h2 {
 }
 small {
   font-size: 10.24px;
+}
+.dark > small {
   color: #DCDCDC;
 }
-.dark {
+.light > small {
+  color: #4A4E74;
+}
+/* .dark {
   color: #ffffff;
 }
 .light {
-  color: #2b283a;
-}
+  color: #2B283A;
+} */
