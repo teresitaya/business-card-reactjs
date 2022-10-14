@@ -1,0 +1,18 @@
+footer{
+    background-color: #161619;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+ul > li > .fa-brands {
+    color: #918E9B;
+    font-size: 25px;
+    margin-right: 20px;
+}

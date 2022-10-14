@@ -10,8 +10,10 @@ function BusinessCard() {
     <section className="businnes-card-container">
       <div className="businnes-card">
         <Info />
-        <About />
+       <div className="content-section">
+       <About />
         <Interests />
+       </div>
         <Footer />
       </div>
     </section>

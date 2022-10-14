@@ -2,9 +2,13 @@ import "./Interests.css";
 
 function Interests() {
   return (
-    <section>
-      <div>Interests</div>
-    </section>
+    <div className="interest-section">
+      <h2>Interests</h2>
+      <small>
+        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+      </small>
+    </div>
   );
 }
 
