@@ -1,0 +1,53 @@
+.info-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    width: 317px;
+    height: 317px;border-radius: 4px;
+}
+
+.info-section-container > h1 {
+    margin-bottom: 5px;
+}
+
+.info-section-container > span {
+    font-size: 13px;
+    color: #F3BF99;
+    margin-bottom: 15px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0px;
+}
+
+a {
+    display: inline-flex;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a > i {
+    font-size: 13px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.emailBtn {
+    padding: 9px 31.6px;
+    background-color: #FFFFFF;
+    color: #374151;
+}
+.linkedInBtn {
+    padding: 9px 22.73px;
+    background-color: #5093E2;
+    color: #FFFFFF;
+}

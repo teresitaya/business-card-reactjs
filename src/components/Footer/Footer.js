@@ -1,9 +1,11 @@
-import "./About.css";
+import "./Footer.css";
 
-function About() {
-  return <section>
-    <div>About</div>
-  </section>;
+function Footer() {
+  return (
+    <section>
+      <div>Footer</div>
+    </section>
+  );
 }
 
-export default About;
+export default Footer;

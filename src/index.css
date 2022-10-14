@@ -3,14 +3,14 @@
 }
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
 }
 .dark {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .light {
-  color: #2B283A;
+  color: #2b283a;
 }
