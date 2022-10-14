@@ -1,0 +1,15 @@
+.businnes-card-container {
+  background-color: #23252c;
+  min-height: 600px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.businnes-card-container > .businnes-card {
+    background-color: #1A1B21;
+    color: #ffffff;
+    padding: 250px 125px;
+    border-radius: 4px;
+}
