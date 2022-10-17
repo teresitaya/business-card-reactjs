@@ -5,15 +5,15 @@ function Info(props) {
   return (
     <div className="info-section-container">
       <img src={curriculum} alt="Curriculum" className="photo"></img>
-      <h1>Maria T Rosales</h1>
+      <h1>Laura Smith</h1>
       <span>Frontend Developer</span>
-      <small>mtrosales.website</small>
+      <small>laurasmith.website</small>
       <div className="contact">
-        <a href="mailto:teresitaya@gmail.com" target="_blank"  rel="noreferrer" className={"emailBtn " + props.mode}>
+        <a href="mailto:mailto@gmail.com" target="_blank"  rel="noreferrer" className={`emailBtn ${props.mode} ${!props.hasLinkedin ? "emailBtnOnly": ""}` }>
         <i className="fa-sharp fa-solid fa-envelope"></i> Email
         </a>
-        <a href="https://www.linkedin.com/in/maria-teresa-rosales-gonz%C3%A1lez-b799a7123/" target="_blank"  rel="noreferrer" className={"linkedInBtn " + props.mode}>
-        <i className="fa-brands fa-linkedin"></i>LinkedIn</a>
+        {props.hasLinkedin && <a href="https://www.linkedin.com/in/profileid/" target="_blank"  rel="noreferrer" className={"linkedInBtn " + props.mode}>
+        <i className="fa-brands fa-linkedin"></i>LinkedIn</a>}
       </div>
     </div>
   );

@@ -51,6 +51,10 @@ a > i {
 .emailBtn {
     padding: 9px 31.6px;
 }
+.emailBtnOnly {
+    padding-right:80px;
+    padding-left:80px;
+}
 .emailBtn.dark {
     background-color: #FFFFFF;
     color: #374151;

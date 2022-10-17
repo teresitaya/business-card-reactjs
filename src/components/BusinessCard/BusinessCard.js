@@ -9,7 +9,7 @@ function BusinessCard(props) {
   return (
     <section className="businnes-card-container">
       <div className={"businnes-card "+ props.mode}>
-        <Info mode={props.mode} />
+        <Info mode={props.mode} hasLinkedin={props.hasLinkedin} />
        <div className="content-section">
        <About />
         <Interests />
